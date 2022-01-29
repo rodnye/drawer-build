@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DrawerBuild</title>
+
+    <!--usage library-->
+    <script src="../drawerbuild.min.js"></script>
+</head>
+<body>
+
+    <!--element-->
+    <div id="menu">
+        <h1>Test</h1>
+        <p>
+            This is an example to try the functioning
+        </p>
+    </div>
+
+    <button onclick="drawer.open()">Menú</button>
+
+    <!--code-->
+    <script>
+
+        //transform to drawer
+        const drawer = new Drawer("menu", "left");
+
+        drawer.open()
+
+    </script>
+</body>
+</html>
