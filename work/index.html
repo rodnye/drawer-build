@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DrawerBuild</title>
+
+    <!--usage library-->
+    <script src="../drawerbuild.min.js"></script>
+    <style>
+        #menu * {
+           margin: 10px
+        }
+    </style>
+</head>
+<body>
+
+    <!--element-->
+    <div id="menu">
+        <h1>Test</h1>
+        <p>
+            This is a example!
+        </p>
+    </div>
+
+    <button onclick="drawer.open()">Menú</button>
+
+    <!--code-->
+    <script>
+        
+        //transform to drawer
+        const drawer = new Drawer("menu", {
+          duration: 800,
+          exitDuration: 200,
+          position: "right",
+          animation: "bounceOut",
+          draggable: true
+        });
+        drawer.setBackground("lightBlue");
+        drawer.setOpacity(0.5)
+     
+      
+
+    </script>
+</body>
+</html>
