@@ -1,5 +1,6 @@
-- Mira la librería en acción [aquí](https://2ao6d1.mimo.run/index.html)
-- El código de ejemplo está [aquí](https://github.com/RodnyE/drawer-build/work/test.html)
+# Muestra
+- Mira la librería en acción [aquí](https://2ao6d1.mimo.run/index.html) !!
+- El código del ejemplo está [aquí](https://github.com/RodnyE/drawer-build/blob/main/work/index.html)
 
 # Instrucciones para la librería DrawerBuild
 
